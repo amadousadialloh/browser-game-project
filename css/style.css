@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#parent-div {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiWLLC1ZI_pVzIOJlKitFgU9x0vPNV9zEGkA&s");
+  background-repeat: repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+
+  max-height: 900px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cookie-div {
+  margin-top: 80px;
+  padding-top: 80px;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+}
+
+img {
+  width: 300px;
+  cursor: pointer;
+}
+
+.text-div {
+  padding: 20px;
+  margin: 30px;
+  color: white;
+}
+
+p {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.cookie-div p {
+  color: white;
+}
